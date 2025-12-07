@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - {t: TAB, h: BT}
+  - TAB
   - A
   - S
   - D
@@ -40,8 +40,8 @@ layers:
   - LCTRL
   - LGUI
   - LALT
+  - BACKSPACE
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
   - {t: SPACE, h: Fnc}
   - {t: ENTER, h: Num}
   - LEFT
@@ -100,8 +100,8 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
   - ENTER
+  - {t: ENTER, type: held}
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - CAPS
   - '1'
   - '2'
-  - '3'
+  - UP
   - '4'
   - '5'
   - '6'
@@ -133,9 +133,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - MINUS
   - EQUAL
@@ -158,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
-  - {t: ENTER, type: held}
   - ENTER
+  - {t: ENTER, type: held}
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -308,6 +308,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -327,13 +332,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -354,3 +354,11 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [36, 37, 17]
+  k: BT
+  l: [BT, Def, Fnc, Num, Mouse, Scr]
+- p: [14, 15]
+  k: INT MUHENKAN
+- p: [20, 21]
+  k: INT HENKAN
