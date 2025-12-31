@@ -119,7 +119,7 @@ layers:
   - A
   - B
   Num:
-  - {t: ▽, type: trans}
+  - ESCAPE
   - LEFT BRACKET
   - RIGHT BRACKET
   - UP
