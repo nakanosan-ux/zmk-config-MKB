@@ -61,7 +61,7 @@ layers:
   - B
   Fnc:
   - GRAVE
-  - PG UP
+  - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
