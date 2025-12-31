@@ -85,7 +85,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BKSP
+  - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
