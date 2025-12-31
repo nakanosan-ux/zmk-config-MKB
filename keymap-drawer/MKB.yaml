@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - ESCAPE
+  - LANG ZENKAKUHANKAKU
   - Q
   - W
   - E
