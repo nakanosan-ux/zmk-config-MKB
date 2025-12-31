@@ -132,11 +132,11 @@ layers:
   - MINUS
   - CARET
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AT SIGN
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
+  - SQT
   - ASTERISK
   - '4'
   - '5'
@@ -144,11 +144,11 @@ layers:
   - PLUS
   - UNDERSCORE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SEMICOLON
+  - COLON
+  - QUESTION
+  - LEFT BRACE
+  - RIGHT BRACE
   - EQUAL
   - '1'
   - '2'
@@ -159,7 +159,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ENTER, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Scr
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,7 +259,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -272,7 +272,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
