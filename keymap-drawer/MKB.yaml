@@ -64,7 +64,7 @@ layers:
   - PG UP
   - UP
   - PG DN
-  - HOME
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F2
