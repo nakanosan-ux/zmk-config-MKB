@@ -72,7 +72,7 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - '&tog_ls'
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
