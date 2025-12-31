@@ -76,7 +76,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
   - F7
