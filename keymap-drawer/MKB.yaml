@@ -63,7 +63,7 @@ layers:
   - GRAVE
   - PG UP
   - UP
-  - PG DN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
