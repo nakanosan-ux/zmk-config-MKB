@@ -48,7 +48,7 @@ trackball: pd@0 {
 };
 
 /*input-split*/
-/ {
+&{/} {
     split_inputs {
         #address-cells = <1>;
         #size-cells = <0>;
