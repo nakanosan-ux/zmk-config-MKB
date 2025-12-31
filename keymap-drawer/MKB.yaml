@@ -36,7 +36,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - RIGHT SHIFT
+  - Mouse
   - LCTRL
   - LGUI
   - LALT
@@ -213,7 +213,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {t: RSHIFT, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
