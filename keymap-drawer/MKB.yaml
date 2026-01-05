@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
+  - Sft+CAPSLOCK
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BKSP
-  - {t: ESC, h: BT}
+  - {t: TAB, h: BT}
   - A
   - S
   - D
@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - SEMI
+  - {t: MINUS, h: Mouse}
   - {t: SQT, h: Mouse}
   - LSHFT
   - Z
@@ -200,8 +200,8 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
