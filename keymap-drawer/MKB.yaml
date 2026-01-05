@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - BACKSPACE
   - {t: TAB, h: BT}
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - {t: MINUS, h: Mouse}
-  - {t: SQT, h: Mouse}
+  - ENTER
   - LSHFT
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - FSLH
+  - RIGHT SHIFT
   - LCTRL
   - LGUI
   - LALT
