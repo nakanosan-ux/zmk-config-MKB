@@ -55,12 +55,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp CAPS         &kp N1            &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7        &kp N8        &kp N9        &kp N0     &trans
-&trans           &kp LS(NUMBER_2)  &trans     &trans    &trans     &kp SQT        &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH   &trans
-&mt LSHFT SPACE  &kp SEMICOLON     &kp COLON  &trans    &trans     &trans         &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
-&trans           &kp ENTER         &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER                   &trans        &trans     &trans
-&kp LEFT         &kp UP            &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME      &kp PG_UP     &kp ENTER     &kp PG_DN  &kp END
-                                              &kp A                                                        &kp B
+&kp CAPS         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N3        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp N6     &kp N7        &kp N8        &kp N9        &kp N0     &trans
+&trans           &kp LS(NUMBER_2)  &trans             &trans        &trans                &kp SQT                    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH   &trans
+&mt LSHFT SPACE  &kp SEMICOLON     &kp COLON          &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE            &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
+&trans           &kp ENTER         &kp ENTER                        &kp ENTER             &kp ENTER                  &kp ENTER  &kp N0                      &kp PERIOD    &trans     &trans
+&kp LEFT         &kp UP            &kp SPACE          &kp DOWN      &kp RIGHT                                                   &kp HOME      &kp PG_UP     &kp ENTER     &kp PG_DN  &kp END
+                                                      &kp A                                                                                   &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
