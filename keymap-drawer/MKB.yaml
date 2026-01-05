@@ -119,7 +119,7 @@ layers:
   - A
   - B
   Num:
-  - CAPS
+  - ESCAPE
   - LEFT BRACKET
   - RIGHT BRACKET
   - '3'
@@ -354,3 +354,10 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [15, 14]
+  k: INT MUHENKAN
+- p: [20, 21]
+  k: INT HENKAN
+- p: [19, 21]
+  k: '&suusikiword'
