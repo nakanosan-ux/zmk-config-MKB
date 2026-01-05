@@ -120,11 +120,11 @@ layers:
   - B
   Num:
   - CAPS
-  - '1'
-  - '2'
+  - LEFT BRACKET
+  - RIGHT BRACKET
   - '3'
-  - '4'
-  - '5'
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - '6'
   - '7'
   - '8'
@@ -146,9 +146,9 @@ layers:
   - {t: SPACE, h: LSHFT}
   - SEMICOLON
   - COLON
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - QUESTION
+  - LEFT BRACE
+  - RIGHT BRACE
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -161,8 +161,8 @@ layers:
   - ENTER
   - {t: ENTER, type: held}
   - ENTER
-  - ENTER
-  - {t: ▽, type: trans}
+  - '0'
+  - PERIOD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
