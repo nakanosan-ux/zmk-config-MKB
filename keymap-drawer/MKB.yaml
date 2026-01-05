@@ -132,27 +132,27 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SQT
   - MINUS
-  - EQUAL
-  - LBKT
-  - RBKT
+  - '4'
+  - '5'
+  - '6'
   - BSLH
   - {t: ▽, type: trans}
   - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
+  - SEMICOLON
+  - COLON
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
