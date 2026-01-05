@@ -40,10 +40,10 @@ layers:
   - LCTRL
   - LGUI
   - LALT
+  - DEL
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - BACKSPACE
+  - ENTER
   - LEFT
   - DOWN
   - RIGHT
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -158,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
-  - {t: ENTER, type: held}
   - ENTER
+  - {t: ENTER, type: held}
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
