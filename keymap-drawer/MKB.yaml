@@ -49,12 +49,12 @@ layers:
   - RIGHT
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
