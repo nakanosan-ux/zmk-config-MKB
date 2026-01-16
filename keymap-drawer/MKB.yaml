@@ -187,7 +187,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SCROLL UP
-  - {t: ▽, type: trans}
+  - {t: Scr, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,12 +285,12 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - ''
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - ''
   - PG DN
   - END
   - A
