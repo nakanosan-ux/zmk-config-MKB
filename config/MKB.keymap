@@ -97,7 +97,7 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &kp K_SCROLL_UP    &to 4     &trans     &trans
+&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &kp K_SCROLL_UP    &mo 4     &trans     &trans
 &trans    &trans  &trans  &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3           &mkp MB2  &trans     &trans
 &trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &kp K_SCROLL_DOWN  &trans    &trans     &trans
 &trans    &trans  &trans            &trans     &trans      &trans  &trans                       &trans    &trans     &trans
