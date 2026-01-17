@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - ENTER
-  - ENTER
-  - ENTER
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,9 +158,9 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - '0'
   - PERIOD
   - {t: ▽, type: trans}
