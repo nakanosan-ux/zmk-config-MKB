@@ -44,7 +44,7 @@
         suusikiword: suusikiword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp INT_MUHENKAN &kp LA(EQUAL) &kp SPACE &kp SPACE &kp LEFT>;
+            bindings = <&kp INT_MUHENKAN &kp LA(LS(EQUAL)) &kp SPACE &kp SPACE &kp LEFT>;
             label = "SUUSIKIWORD";
         };
     };
