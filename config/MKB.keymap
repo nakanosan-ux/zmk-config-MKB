@@ -55,12 +55,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp LS(CAPSLOCK)  &kp Q     &kp W     &kp E     &kp R      &kp T            &kp Y          &kp U      &kp I      &kp O     &kp P      &kp BACKSPACE
-&lt BT TAB        &kp A     &kp S     &kp D     &kp F      &kp G            &kp H          &kp J      &kp K      &kp L     &kp MINUS  &lt 3 ENTER
-&kp LSHFT         &kp Z     &kp X     &kp C     &kp V      &kp B            &kp N          &kp M      &kp COMMA  &kp DOT   &kp UP     &kp RIGHT_SHIFT
-&kp LCTRL         &kp LGUI  &kp LALT            &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER             &kp LEFT  &kp DOWN   &kp RIGHT
-&kp LEFT          &kp UP    &none     &kp DOWN  &kp RIGHT                                  &kp HOME   &kp PG_UP  &none     &kp PG_DN  &kp END
-                                      &kp A                                                           &kp B
+&kp GRAVE   &kp Q     &kp W     &kp E     &kp R      &kp T            &kp Y          &kp U      &kp I      &kp O     &kp P      &kp BACKSPACE
+&lt BT TAB  &kp A     &kp S     &kp D     &kp F      &kp G            &kp H          &kp J      &kp K      &kp L     &kp MINUS  &lt 3 ENTER
+&kp LSHFT   &kp Z     &kp X     &kp C     &kp V      &kp B            &kp N          &kp M      &kp COMMA  &kp DOT   &kp UP     &kp RIGHT_SHIFT
+&kp LCTRL   &kp LGUI  &kp LALT            &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER             &kp LEFT  &kp DOWN   &kp RIGHT
+&kp LEFT    &kp UP    &none     &kp DOWN  &kp RIGHT                                  &kp HOME   &kp PG_UP  &none     &kp PG_DN  &kp END
+                                &kp A                                                           &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -97,11 +97,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &kp K_SCROLL_UP    &mo 4     &trans     &trans
-&trans    &trans  &trans  &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3           &mkp MB2  &trans     &trans
-&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &kp K_SCROLL_DOWN  &trans    &trans     &trans
-&trans    &trans  &trans            &trans     &trans      &trans  &trans                       &trans    &trans     &trans
-&kp LEFT  &kp UP  &none   &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP          &none     &kp PG_DN  &kp END
+&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &kp LC(LS(TAB))  &mo 4     &kp LC(TAB)  &trans
+&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &mkp MB1         &mkp MB3  &mkp MB2     &trans
+&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans    &trans           &trans    &trans       &trans
+&trans    &trans  &trans            &trans     &trans      &trans  &trans                     &trans    &trans       &trans
+&kp LEFT  &kp UP  &none   &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP        &none     &kp PG_DN    &kp END
                           &kp A                                              &kp B
             >;
 
