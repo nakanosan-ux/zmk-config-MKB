@@ -403,10 +403,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="756" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;suusikiwo…</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="99" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
 <a href="#Mouse">
-<text x="924" y="112" class="combo tap layer-activator">Mouse</text>
-</a><text x="924" y="123" class="combo hold">toggle</text>
+<text x="896" y="140" class="combo tap layer-activator">Mouse</text>
+</a><text x="896" y="151" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -670,10 +670,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="756" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;suusikiwo…</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="99" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
 <a href="#Mouse">
-<text x="924" y="112" class="combo tap layer-activator">Mouse</text>
-</a><text x="924" y="123" class="combo hold">toggle</text>
+<text x="896" y="140" class="combo tap layer-activator">Mouse</text>
+</a><text x="896" y="151" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -947,10 +947,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="756" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;suusikiwo…</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="99" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
 <a href="#Mouse">
-<text x="924" y="112" class="combo tap layer-activator">Mouse</text>
-</a><text x="924" y="123" class="combo hold">toggle</text>
+<text x="896" y="140" class="combo tap layer-activator">Mouse</text>
+</a><text x="896" y="151" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1223,10 +1223,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="756" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;suusikiwo…</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="99" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
 <a href="#Mouse">
-<text x="924" y="112" class="combo tap layer-activator">Mouse</text>
-</a><text x="924" y="123" class="combo hold">toggle</text>
+<text x="896" y="140" class="combo tap layer-activator">Mouse</text>
+</a><text x="896" y="151" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1492,10 +1492,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="756" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;suusikiwo…</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="99" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
 <a href="#Mouse">
-<text x="924" y="112" class="combo tap layer-activator">Mouse</text>
-</a><text x="924" y="123" class="combo hold">toggle</text>
+<text x="896" y="140" class="combo tap layer-activator">Mouse</text>
+</a><text x="896" y="151" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1770,10 +1770,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="756" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;suusikiwo…</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="99" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="882" y="127" width="28" height="26" class="combo"/>
 <a href="#Mouse">
-<text x="924" y="112" class="combo tap layer-activator">Mouse</text>
-</a><text x="924" y="123" class="combo hold">toggle</text>
+<text x="896" y="140" class="combo tap layer-activator">Mouse</text>
+</a><text x="896" y="151" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
