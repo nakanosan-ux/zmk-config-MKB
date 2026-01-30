@@ -133,7 +133,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - AT SIGN
-  - {t: ▽, type: trans}
+  - LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SQT
