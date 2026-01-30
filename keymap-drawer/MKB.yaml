@@ -47,11 +47,11 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - LEFT
-  - UP
+  - Ctl+Z
+  - Ctl+C
   - ''
-  - DOWN
-  - RIGHT
+  - Ctl+V
+  - Ctl+Y
   - HOME
   - PG UP
   - ''
@@ -132,7 +132,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+2
+  - AT SIGN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -187,9 +187,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - Scr
+  - '&msc MOVE_Y(10)'
   - Ctl+TAB
-  - {t: ▽, type: trans}
+  - Ctl+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -246,7 +246,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -260,7 +260,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -361,3 +361,5 @@ combos:
   k: INT HENKAN
 - p: [19, 21]
   k: '&suusikiword'
+- p: [35, 23]
+  k: {t: Mouse, h: toggle}
