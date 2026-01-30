@@ -61,7 +61,7 @@
             label = "Def";
             bindings = <
 &kp GRAVE   &kp Q      &kp W     &kp E      &kp R      &kp T            &kp Y          &kp U           &kp I         &kp O     &kp P           &kp BACKSPACE
-&lt BT TAB  &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J           &kp K         &kp L     &kp MINUS       &lt 3 ENTER
+&lt BT TAB  &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J           &kp K         &kp L     &lt 3 MINUS     &kp ENTER
 &kp LSHFT   &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M           &kp COMMA     &kp DOT   &kp UP          &kp RIGHT_SHIFT
 &kp LCTRL   &kp LGUI   &kp LALT             &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER                     &kp LEFT  &kp DOWN        &kp RIGHT
 &kp LC(Z)   &kp LC(C)  &none     &kp LC(V)  &kp LC(Y)                                  &msc SCRL_LEFT  &msc SCRL_UP  &none     &msc SCRL_DOWN  &msc SCRL_RIGHT
@@ -76,8 +76,8 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME   &trans      &kp F1   &kp F2    &kp F3     &kp F4  &kp F5     &trans
-&tog_ls    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans      &kp F6   &kp F7    &kp F8     &kp F9  &kp F10    &trans
+&kp GRAVE  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME   &trans      &kp F1   &kp F2    &trans     &trans  &kp F5     &trans
+&tog_ls    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans      &kp F6   &trans    &trans     &trans  &trans     &trans
 &trans     &kp BKSP   &kp DEL   &trans     &trans     &trans      &kp F11  &kp F12   &trans     &trans  &trans     &trans
 &trans     &trans     &kp LALT             &trans     &trans      &trans   &trans               &trans  &trans     &trans
 &kp LEFT   &kp UP     &none     &kp DOWN   &kp RIGHT                       &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
@@ -104,12 +104,12 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &kp LC(LS(TAB))  &msc MOVE_Y(10)   &kp LC(TAB)  &kp LC(W)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1  &mkp MB1         &mkp MB3          &mkp MB2     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans           &msc MOVE_Y(-10)  &trans       &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans                     &trans            &trans       &trans
-&trans  &trans  &none   &trans  &trans                      &kp HOME  &kp PG_UP        &none             &kp PG_DN    &kp END
-                        &kp A                                         &kp B
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LS(TAB))  &mo 1      &kp LC(TAB)  &kp LC(W)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1         &mkp MB3   &mkp MB2     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans           &trans     &trans       &trans     &trans
+&trans  &trans  &trans          &trans  &trans      &trans  &trans                      &trans       &trans     &trans
+&trans  &trans  &none   &trans  &trans                      &kp HOME         &kp PG_UP  &none        &kp PG_DN  &kp END
+                        &kp A                                                &kp B
             >;
 
             sensor-bindings =
