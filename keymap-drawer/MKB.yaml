@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - MINUS
-  - {t: ENTER, h: Mouse}
+  - {t: MINUS, h: Mouse}
+  - ENTER
   - LSHFT
   - Z
   - X
@@ -68,8 +68,8 @@ layers:
   - {t: ▽, type: trans}
   - F1
   - F2
-  - F3
-  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F5
   - {t: ▽, type: trans}
   - '&tog_ls'
@@ -79,10 +79,10 @@ layers:
   - END
   - {t: ▽, type: trans}
   - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BKSP
@@ -185,9 +185,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - '&msc MOVE_Y(10)'
+  - Fnc
   - Ctl+TAB
   - Ctl+W
   - {t: ▽, type: trans}
@@ -197,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -211,7 +210,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc MOVE_Y(-10)'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
