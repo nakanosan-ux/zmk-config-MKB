@@ -52,11 +52,11 @@ layers:
   - ''
   - Ctl+V
   - Ctl+Y
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_UP'
+  - BRI UP
+  - VOLUME UP
   - ''
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
+  - VOLUME DOWN
+  - BRI DEC
   - A
   - B
   Fnc:
