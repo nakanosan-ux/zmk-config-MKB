@@ -76,12 +76,12 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME   &trans      &trans   &trans    &trans     &trans  &kp F5     &trans
-&tog_ls    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans      &trans   &trans    &trans     &trans  &trans     &trans
-&trans     &kp BKSP   &kp DEL   &trans     &trans     &trans      &kp F11  &kp F12   &trans     &trans  &trans     &trans
-&trans     &trans     &kp LALT             &trans     &trans      &trans   &trans               &trans  &trans     &trans
-&kp LEFT   &kp UP     &none     &kp DOWN   &kp RIGHT                       &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
-                                &kp A                                                &kp B
+&kp GRAVE  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME   &trans      &trans  &trans    &trans     &trans  &kp F5     &trans
+&tog_ls    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans      &trans  &trans    &trans     &trans  &trans     &trans
+&trans     &kp BKSP   &kp DEL   &trans     &trans     &trans      &trans  &kp F12   &trans     &trans  &trans     &trans
+&trans     &trans     &kp LALT             &trans     &trans      &trans  &trans               &trans  &trans     &trans
+&kp LEFT   &kp UP     &none     &kp DOWN   &kp RIGHT                      &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
+                                &kp A                                               &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
