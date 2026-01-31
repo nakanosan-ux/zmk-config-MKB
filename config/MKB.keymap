@@ -120,9 +120,9 @@
         scroll_layer {
             label = "Scr";
             bindings = <
-&trans    &trans  &trans  &trans    &trans     &trans      &trans  &kp LC(LS(TAB))  &trans     &kp LC(TAB)  &kp LC(W)  &trans
+&trans    &trans  &trans  &trans    &trans     &trans      &trans  &kp LC(LS(TAB))  &trans     &kp LC(TAB)  &trans     &trans
 &trans    &trans  &trans  &trans    &trans     &trans      &trans  &mkp MB1         &mkp MB3   &mkp MB2     &trans     &trans
-&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans           &trans     &trans       &trans     &trans
+&trans    &trans  &trans  &trans    &trans     &trans      &trans  &trans           &trans     &kp LC(W)    &trans     &trans
 &trans    &trans  &trans            &trans     &trans      &trans  &trans                      &trans       &trans     &trans
 &kp LEFT  &kp UP  &none   &kp DOWN  &kp RIGHT                      &kp HOME         &kp PG_UP  &none        &kp PG_DN  &kp END
                           &kp A                                                     &kp B
