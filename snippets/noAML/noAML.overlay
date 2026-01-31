@@ -42,7 +42,7 @@
         
         layer0 {
             layers = <0>;
-            input-processors = <&zip_xy_scaler 1 96>, <&zip_xy_to_scroll_mapper>;
+            input-processors = <&zip_xy_scaler 1 256>, <&zip_xy_to_scroll_mapper>;
         };
         layer1 {
             layers = <1>;
