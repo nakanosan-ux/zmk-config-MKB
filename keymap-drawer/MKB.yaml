@@ -135,7 +135,7 @@ layers:
   - AT SIGN
   - LEFT
   - DOWN ARROW
-  - {t: ▽, type: trans}
+  - RIGHT ARROW
   - SQT
   - MINUS
   - '4'
