@@ -33,7 +33,7 @@ layers:
   - B
   - N
   - M
-  - COMMA
+  - {t: COMMA, h: Fnc}
   - DOT
   - UP
   - RIGHT SHIFT
@@ -60,7 +60,7 @@ layers:
   - A
   - B
   Fnc:
-  - GRAVE
+  - {t: ▽, type: trans}
   - PG UP
   - UP
   - PG DN
@@ -70,9 +70,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F5
   - {t: ▽, type: trans}
-  - '&tog_ls'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
@@ -85,8 +85,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BKSP
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,11 +92,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,7 +132,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AT SIGN
+  - LEFT BRACKET
   - LEFT
   - DOWN ARROW
   - RIGHT ARROW
@@ -186,7 +186,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - Scr
+  - '&mkp MB3'
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - Scr
   - '&mkp MB2'
   - {type: held}
   - {t: ▽, type: trans}
@@ -245,7 +245,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - {type: held}
+  - {t: ▽, type: trans}
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - {t: '&mkp MB3', type: held}
   - '&mkp MB2'
   - {type: held}
   - {t: ▽, type: trans}
