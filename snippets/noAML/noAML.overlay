@@ -11,14 +11,14 @@
         };
 
         arrow {
-            layers = <2>;
+            layers = <1>;
             input-processors =
                 <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>, <&zip_keybind_keys>;
             process-next;
         };
         
         arrow-prevent-move {
-            layers = <2>;
+            layers = <1>;
             input-processors = <&zip_xy_scaler 0 1>;
         };
     };
@@ -42,11 +42,11 @@
         
         layer0 {
             layers = <0>;
-            input-processors = <&zip_xy_scaler 1 256>, <&zip_xy_to_scroll_mapper>;
+            input-processors = <&zip_xy_scaler 1 512>, <&zip_xy_to_scroll_mapper>;
         };
         layer1 {
             layers = <1>;
-            input-processors = <&zip_xy_scaler 1 96>;
+            input-processors = <&zip_xy_scaler 1 512>;
         };
     };
     
