@@ -49,7 +49,7 @@
         suusikiword: suusikiword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp INT_MUHENKAN &kp LA(LS(EQUAL)) &kp SPACE &kp SPACE &kp LEFT>;
+            bindings = <&kp INT_MUHENKAN &kp LA(LS(MINUS)) &kp SPACE &kp SPACE &kp LEFT>;
             label = "SUUSIKIWORD";
         };
     };
@@ -62,7 +62,7 @@
             bindings = <
 &kp GRAVE   &kp Q      &kp W     &kp E      &kp R      &kp T            &kp Y          &kp U         &kp I            &kp O     &kp P              &kp BACKSPACE
 &lt BT TAB  &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J         &kp K            &kp L     &lt 3 MINUS        &kp ENTER
-&kp LSHFT   &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M         &kp COMMA        &kp DOT   &kp UP             &kp RIGHT_SHIFT
+&kp LSHFT   &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M         &lt 1 COMMA      &kp DOT   &kp UP             &kp RIGHT_SHIFT
 &kp LCTRL   &kp LGUI   &kp LALT             &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER                      &kp LEFT  &kp DOWN           &kp RIGHT
 &kp LC(Z)   &kp LC(C)  &none     &kp LC(V)  &kp LC(Y)                                  &kp C_BRI_UP  &kp C_VOLUME_UP  &none     &kp C_VOLUME_DOWN  &kp C_BRI_DEC
                                  &kp A                                                               &kp B
@@ -76,12 +76,12 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME   &trans      &trans  &trans    &trans     &trans  &kp F5     &trans
-&tog_ls    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans      &trans  &trans    &trans     &trans  &trans     &trans
-&trans     &kp BKSP   &kp DEL   &trans     &trans     &trans      &trans  &trans    &trans     &trans  &trans     &trans
-&trans     &trans     &kp LALT             &trans     &trans      &trans  &trans               &trans  &trans     &trans
-&kp LEFT   &kp UP     &none     &kp DOWN   &kp RIGHT                      &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
-                                &kp A                                               &kp B
+&trans    &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME   &trans      &trans  &trans    &trans     &trans  &trans     &trans
+&trans    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans      &trans  &trans    &trans     &trans  &trans     &trans
+&trans    &trans     &trans    &trans     &trans     &trans      &trans  &trans    &trans     &trans  &trans     &trans
+&trans    &trans     &trans               &trans     &trans      &trans  &trans               &trans  &trans     &trans
+&kp LEFT  &kp UP     &none     &kp DOWN   &kp RIGHT                      &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
+                               &kp A                                               &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -91,7 +91,7 @@
             label = "Num";
             bindings = <
 &kp ESCAPE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp SLASH  &kp N7        &kp N8        &kp N9        &kp N0     &trans
-&trans           &kp AT_SIGN       &kp LEFT           &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp SQT                    &kp ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH   &trans
+&trans           &kp LEFT_BRACKET  &kp LEFT           &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp SQT                    &kp ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH   &trans
 &mt LSHFT SPACE  &kp SEMICOLON     &kp COLON          &kp QUESTION    &kp LEFT_BRACE        &kp RIGHT_BRACE            &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
 &trans           &kp ENTER         &kp ENTER                          &trans                &trans                     &trans     &kp N0                      &kp PERIOD    &trans     &trans
 &kp LEFT         &kp UP            &none              &kp DOWN        &kp RIGHT                                                   &kp HOME      &kp PG_UP     &none         &kp PG_DN  &kp END
@@ -104,8 +104,8 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LS(TAB))  &mo 4      &kp LC(TAB)  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1         &mkp MB3   &mkp MB2     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LS(TAB))  &mkp MB3   &kp LC(TAB)  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1         &mo 4      &mkp MB2     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans           &trans     &kp LC(W)    &trans     &trans
 &trans  &trans  &trans          &trans  &trans      &trans  &trans                      &trans       &trans     &trans
 &trans  &trans  &none   &trans  &trans                      &kp HOME         &kp PG_UP  &none        &kp PG_DN  &kp END
