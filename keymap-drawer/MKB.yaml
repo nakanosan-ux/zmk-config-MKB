@@ -120,36 +120,36 @@ layers:
   - B
   Num:
   - ESCAPE
-  - RIGHT BRACKET
-  - Sft+RIGHT BRACKET
+  - Sft+RIGHT BRACE
+  - BACKSLASH
   - UP ARROW
   - Sft+8
-  - LEFT PARENTHESIS
+  - Sft+9
   - SLASH
   - '7'
   - '8'
   - '9'
   - MINUS
+  - EQUAL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT BRACKET
+  - LEFT BRACE
   - LEFT
   - DOWN ARROW
   - RIGHT ARROW
-  - Sft+SQT
-  - DQT
+  - Sft+7
+  - Sft+APOS
   - '4'
   - '5'
   - '6'
-  - PLUS
-  - {t: ▽, type: trans}
+  - Sft+SEMI
+  - Sft+INTERNATIONAL 1
   - {t: ▽, type: trans}
   - SEMICOLON
   - SQT
   - QUESTION
   - RIGHT BRACE
-  - Sft+RIGHT BRACE
-  - KP EQUAL
+  - Sft+BACKSLASH
+  - UNDER
   - '1'
   - '2'
   - '3'
