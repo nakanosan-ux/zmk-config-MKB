@@ -93,7 +93,7 @@
 &kp ESCAPE  &kp LS(RIGHT_BRACE)  &kp BACKSLASH  &kp UP_ARROW    &kp LS(N8)       &kp LS(N9)             &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS            &kp EQUAL
 &trans      &kp LEFT_BRACE       &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(N7)             &kp LS(APOS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(SEMI)         &kp LS(INTERNATIONAL_1)
 &trans      &kp SEMICOLON        &kp SQT        &kp QUESTION    &kp RIGHT_BRACE  &kp LS(BACKSLASH)      &kp UNDER     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INTERNATIONAL_3  &trans
-&trans      &kp ENTER            &kp ENTER                      &trans           &trans                 &trans        &kp N0                      &kp PERIOD    &trans               &trans
+&trans      &trans               &trans                         &trans           &trans                 &trans        &kp N0                      &kp PERIOD    &trans               &trans
 &kp LEFT    &kp UP               &none          &kp DOWN        &kp RIGHT                                             &kp HOME      &kp PG_UP     &none         &kp PG_DN            &kp END
                                                 &kp A                                                                               &kp B
             >;
@@ -104,11 +104,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LS(TAB))  &mkp MB3   &kp LC(TAB)  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1         &mo 4      &mkp MB2     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans           &trans     &kp LC(W)    &trans     &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans                      &trans       &trans     &trans
-&trans  &trans  &none   &trans  &trans                      &kp HOME         &kp PG_UP  &none        &kp PG_DN  &kp END
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LS(TAB))  &mkp MB3  &kp LC(TAB)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1         &mo 4     &mkp MB2     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans           &trans    &kp LC(W)    &trans  &trans
+&trans  &trans  &trans          &trans  &trans      &trans  &trans                     &trans       &trans  &trans
+&trans  &trans  &none   &trans  &trans                      &trans           &trans    &none        &trans  &trans
                         &kp A                                                &kp B
             >;
 
