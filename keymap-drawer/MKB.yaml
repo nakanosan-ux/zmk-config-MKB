@@ -156,8 +156,8 @@ layers:
   - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -229,11 +229,11 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
-  - PG UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - PG DN
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - B
   Scr:
