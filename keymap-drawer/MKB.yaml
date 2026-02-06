@@ -120,7 +120,7 @@ layers:
   - B
   Num:
   - ESCAPE
-  - Sft+RIGHT BRACE
+  - RIGHT BRACE
   - BACKSLASH
   - UP ARROW
   - Sft+8
