@@ -410,6 +410,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="840" y="84" class="combo tap layer-activator">Mouse</text>
 </a><text x="840" y="95" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M756,28 l-37,0" class="combo"/>
+<path d="M756,28 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="742" y="15" width="28" height="26" class="combo"/>
+<a href="#Num">
+<text x="756" y="28" class="combo tap layer-activator">Num</text>
+</a><text x="756" y="39" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 322)" class="layer-Fnc">
@@ -675,6 +683,14 @@ path.combo { stroke: #7f7f7f; }
 <a href="#Mouse">
 <text x="840" y="84" class="combo tap layer-activator">Mouse</text>
 </a><text x="840" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M756,28 l-37,0" class="combo"/>
+<path d="M756,28 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="742" y="15" width="28" height="26" class="combo"/>
+<a href="#Num">
+<text x="756" y="28" class="combo tap layer-activator">Num</text>
+</a><text x="756" y="39" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -960,6 +976,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="840" y="84" class="combo tap layer-activator">Mouse</text>
 </a><text x="840" y="95" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M756,28 l-37,0" class="combo"/>
+<path d="M756,28 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="742" y="15" width="28" height="26" class="combo"/>
+<a href="#Num">
+<text x="756" y="28" class="combo tap layer-activator">Num</text>
+</a><text x="756" y="39" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 966)" class="layer-Mouse">
@@ -1226,6 +1250,14 @@ path.combo { stroke: #7f7f7f; }
 <a href="#Mouse">
 <text x="840" y="84" class="combo tap layer-activator">Mouse</text>
 </a><text x="840" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M756,28 l-37,0" class="combo"/>
+<path d="M756,28 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="742" y="15" width="28" height="26" class="combo"/>
+<a href="#Num">
+<text x="756" y="28" class="combo tap layer-activator">Num</text>
+</a><text x="756" y="39" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1496,6 +1528,14 @@ path.combo { stroke: #7f7f7f; }
 <a href="#Mouse">
 <text x="840" y="84" class="combo tap layer-activator">Mouse</text>
 </a><text x="840" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M756,28 l-37,0" class="combo"/>
+<path d="M756,28 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="742" y="15" width="28" height="26" class="combo"/>
+<a href="#Num">
+<text x="756" y="28" class="combo tap layer-activator">Num</text>
+</a><text x="756" y="39" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1774,6 +1814,14 @@ path.combo { stroke: #7f7f7f; }
 <a href="#Mouse">
 <text x="840" y="84" class="combo tap layer-activator">Mouse</text>
 </a><text x="840" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M756,28 l-37,0" class="combo"/>
+<path d="M756,28 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="742" y="15" width="28" height="26" class="combo"/>
+<a href="#Num">
+<text x="756" y="28" class="combo tap layer-activator">Num</text>
+</a><text x="756" y="39" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

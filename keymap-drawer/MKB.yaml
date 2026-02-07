@@ -363,3 +363,5 @@ combos:
   k: '&suusikiword'
 - p: [22, 21]
   k: {t: Mouse, h: toggle}
+- p: [7, 8, 9]
+  k: {t: Num, h: toggle}
