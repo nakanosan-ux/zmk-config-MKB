@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
   - HOME
   - PG UP
   - ''
