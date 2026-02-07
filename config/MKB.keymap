@@ -43,6 +43,11 @@
             bindings = <&tog 3>;
             key-positions = <22 21>;
         };
+
+        zutto-numlayer {
+            bindings = <&tog 2>;
+            key-positions = <7 8 9>;
+        };
     };
 
     macros {
