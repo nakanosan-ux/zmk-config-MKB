@@ -51,7 +51,7 @@
         compatible = "zmk,input-listener";
         device = <&anin0>;
 //ここから先を書き換えています
-　　arrow {
+	arrow {
         layers = <0>;
         input-processors =
             <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
@@ -79,3 +79,4 @@
 
 
 };
+
