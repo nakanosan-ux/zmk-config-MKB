@@ -107,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-  - UP
+  - {t: ▽, type: trans}
   - ''
   - DOWN
   - RIGHT
