@@ -6,6 +6,7 @@
 };
 
 &sensors {
-   triggers-per-rotation = <24>;
+   triggers-per-rotation = <10>;
 
 };
+
