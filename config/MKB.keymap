@@ -118,7 +118,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LC(SEMICOLON) LC(APOS)>,
+                <&inc_dec_kp LC(SEMICOLON) LC(MINUS)>,
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
