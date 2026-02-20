@@ -83,7 +83,7 @@
 &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &trans      &trans  &trans    &trans     &trans  &trans     &trans
 &trans  &trans     &trans    &trans     &trans    &trans      &trans  &trans    &trans     &trans  &trans     &trans
 &trans  &trans     &trans               &trans    &trans      &trans  &trans               &trans  &trans     &trans
-&trans  &trans     &none     &kp DOWN   &trans                        &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
+&trans  &trans     &none     &trans     &trans                        &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
                              &kp A                                              &kp B
             >;
 
