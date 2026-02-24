@@ -27,8 +27,8 @@ manifest:
       remote: caksoylar
       revision: v0.3-branch
     - name: zmk-pmw3610-driver
-      remote: efogdev
-      #remote: badjeff
+     #remote: efogdev
+      remote: badjeff
       revision: main
     - name: zmk-analog-input-driver
       remote: badjeff
@@ -52,6 +52,7 @@ manifest:
     path: config
 
     
+
 
 
 
