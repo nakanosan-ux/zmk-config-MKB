@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - GRAVE
+  - {t: GRAVE, h: Fnc}
   - Q
   - W
   - E
@@ -33,8 +33,8 @@ layers:
   - B
   - N
   - M
-  - {t: COMMA, h: Fnc}
-  - DOT
+  - COMMA
+  - {t: DOT, h: RCTRL}
   - UP
   - RIGHT SHIFT
   - LCTRL
@@ -60,16 +60,16 @@ layers:
   - A
   - B
   Fnc:
-  - {t: ▽, type: trans}
+  - {type: held}
   - PG UP
   - UP
   - PG DN
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,21 +79,21 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -357,11 +357,21 @@ layers:
 combos:
 - p: [15, 14]
   k: INT MUHENKAN
+  l: [Def]
 - p: [20, 21]
   k: INT HENKAN
+  l: [Def]
 - p: [19, 21]
   k: '&suusikiword'
+  l: [Def]
 - p: [22, 21]
   k: {t: Mouse, h: toggle}
 - p: [7, 8, 9]
   k: {t: Num, h: toggle}
+  l: [Def]
+- p: [35, 45]
+  k: END
+  l: [Def]
+- p: [43, 35]
+  k: HOME
+  l: [Def]
