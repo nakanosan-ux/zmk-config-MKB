@@ -27,16 +27,19 @@
         muhen {
             bindings = <&kp INT_MUHENKAN>;
             key-positions = <15 14>;
+            layers = <0>;
         };
 
         hen {
             bindings = <&kp INT_HENKAN>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         suusiki {
             bindings = <&suusikiword>;
             key-positions = <19 21>;
+            layers = <0>;
         };
 
         mouselayer {
@@ -47,6 +50,19 @@
         zutto-numlayer {
             bindings = <&tog 2>;
             key-positions = <7 8 9>;
+            layers = <0>;
+        };
+
+        endhe {
+            bindings = <&kp END>;
+            key-positions = <35 45>;
+            layers = <0>;
+        };
+
+        homehe {
+            bindings = <&kp HOME>;
+            key-positions = <43 35>;
+            layers = <0>;
         };
     };
 
@@ -65,12 +81,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp GRAVE   &kp Q      &kp W     &kp E      &kp R      &kp T            &kp Y          &kp U         &kp I            &kp O     &kp P              &kp BACKSPACE
-&lt BT TAB  &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J         &kp K            &kp L     &lt 3 MINUS        &kp ENTER
-&kp LSHFT   &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M         &lt 1 COMMA      &kp DOT   &kp UP             &kp RIGHT_SHIFT
-&kp LCTRL   &kp LGUI   &kp LALT             &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER                      &kp LEFT  &kp DOWN           &kp RIGHT
-&kp LC(Z)   &kp LC(C)  &none     &kp LC(V)  &kp LC(Y)                                  &kp C_BRI_UP  &kp C_VOLUME_UP  &none     &kp C_VOLUME_DOWN  &kp C_BRI_DEC
-                                 &kp A                                                               &kp B
+&lt 1 GRAVE  &kp Q      &kp W     &kp E      &kp R      &kp T            &kp Y          &kp U         &kp I            &kp O          &kp P              &kp BACKSPACE
+&lt BT TAB   &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J         &kp K            &kp L          &lt 3 MINUS        &kp ENTER
+&kp LSHFT    &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M         &kp COMMA        &mt RCTRL DOT  &kp UP             &kp RIGHT_SHIFT
+&kp LCTRL    &kp LGUI   &kp LALT             &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER                      &kp LEFT       &kp DOWN           &kp RIGHT
+&kp LC(Z)    &kp LC(C)  &none     &kp LC(V)  &kp LC(Y)                                  &kp C_BRI_UP  &kp C_VOLUME_UP  &none          &kp C_VOLUME_DOWN  &kp C_BRI_DEC
+                                  &kp A                                                               &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT_ARROW>, <&inc_dec_kp U D>;
@@ -79,9 +95,9 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&trans  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME  &trans      &trans  &trans    &trans     &trans  &trans     &trans
-&trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &trans      &trans  &trans    &trans     &trans  &trans     &trans
-&trans  &trans     &trans    &trans     &trans    &trans      &trans  &trans    &trans     &trans  &trans     &trans
+&trans  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME  &trans      &trans  &kp F7    &kp F8     &kp F9  &trans     &trans
+&trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &trans      &trans  &kp F4    &kp F5     &kp F6  &trans     &trans
+&trans  &kp F10    &kp F11   &kp F12    &trans    &trans      &trans  &kp F1    &kp F2     &kp F3  &trans     &trans
 &trans  &trans     &trans               &trans    &trans      &trans  &trans               &trans  &trans     &trans
 &trans  &trans     &none     &trans     &trans                        &kp HOME  &kp PG_UP  &none   &kp PG_DN  &kp END
                              &kp A                                              &kp B
