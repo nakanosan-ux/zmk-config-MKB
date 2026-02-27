@@ -52,11 +52,11 @@ layers:
   - ''
   - Ctl+V
   - Ctl+Y
-  - BRI UP
+  - BRI DEC
   - VOLUME UP
   - ''
   - VOLUME DOWN
-  - BRI DEC
+  - BRI UP
   - A
   - B
   Fnc:
