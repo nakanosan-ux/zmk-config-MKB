@@ -351,7 +351,7 @@ layers:
   - PG UP
   - ENTER
   - PG DN
-  - END
+  - {t: ▽, type: trans}
   - A
   - B
   Num_migi:
