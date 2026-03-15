@@ -113,7 +113,7 @@
 &trans      &kp LEFT_BRACE   &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(N7)             &kp LS(APOS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(SEMI)         &kp LS(INTERNATIONAL_1)
 &trans      &kp SEMICOLON    &kp SQT        &kp QUESTION    &kp RIGHT_BRACE  &kp LS(BACKSLASH)      &kp UNDER     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INTERNATIONAL_3  &trans
 &trans      &trans           &trans                         &trans           &trans                 &trans        &kp N0                      &kp PERIOD    &trans               &trans
-&kp LEFT    &kp UP           &none          &kp DOWN        &kp RIGHT                                             &kp HOME      &kp PG_UP     &none         &kp PG_DN            &kp END
+&kp LEFT    &trans           &none          &kp DOWN        &kp RIGHT                                             &kp HOME      &kp PG_UP     &none         &kp PG_DN            &kp END
                                             &kp A                                                                               &kp B
             >;
 
