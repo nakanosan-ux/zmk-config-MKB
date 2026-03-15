@@ -354,6 +354,65 @@ layers:
   - {t: ▽, type: trans}
   - A
   - B
+  tenkey:
+  - ESCAPE
+  - RIGHT BRACE
+  - BACKSLASH
+  - UP ARROW
+  - Sft+8
+  - Sft+9
+  - SLASH
+  - '7'
+  - '8'
+  - '9'
+  - MINUS
+  - EQUAL
+  - {t: ▽, type: trans}
+  - LEFT BRACE
+  - LEFT
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Sft+7
+  - Sft+APOS
+  - '4'
+  - '5'
+  - '6'
+  - Sft+SEMI
+  - Sft+ENTER
+  - {t: ▽, type: trans}
+  - SEMICOLON
+  - SQT
+  - QUESTION
+  - RIGHT BRACE
+  - Sft+BACKSLASH
+  - UNDER
+  - '1'
+  - '2'
+  - '3'
+  - INTERNATIONAL 3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - PERIOD
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - {t: ▽, type: trans}
+  - ''
+  - DOWN
+  - RIGHT
+  - LEFT
+  - UP ARROW
+  - ''
+  - DOWN
+  - RIGHT
+  - A
+  - B
 combos:
 - p: [15, 14]
   k: INT MUHENKAN
@@ -367,7 +426,7 @@ combos:
 - p: [22, 21]
   k: {t: Scr, h: toggle}
 - p: [7, 8, 9]
-  k: {t: Num, h: toggle}
+  k: {t: tenkey, h: toggle}
   l: [Def]
 - p: [35, 45]
   k: END
