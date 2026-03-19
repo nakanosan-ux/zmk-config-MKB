@@ -473,41 +473,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   iPad_num:
+  - ESC
+  - LBKT
+  - RBKT
+  - UP
+  - Sft+LPAR
+  - Sft+RPAR
+  - FSLH
+  - '7'
+  - '8'
+  - '9'
+  - MINUS
+  - CARET
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AT
+  - LEFT
+  - DOWN
+  - RIGHT
+  - Sft+SQT
+  - Sft+STAR
+  - '4'
+  - '5'
+  - '6'
+  - Sft+PLUS
+  - Sft+UNDER
+  - LSHFT
+  - SEMI
+  - COLON
+  - Sft+QMARK
+  - Sft+LBRC
+  - LBKT
+  - Sft+EQUAL
+  - '1'
+  - '2'
+  - '3'
+  - BSLH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -515,10 +515,10 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - DOT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
