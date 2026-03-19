@@ -211,12 +211,12 @@
 
         iPad_num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-                        &trans                                      &trans
+&kp ESC    &kp LBKT  &kp RBKT   &kp UP         &kp LS(LPAR)  &kp LS(RPAR)      &kp FSLH       &kp N7  &kp N8  &kp N9   &kp MINUS     &kp CARET
+&trans     &kp AT    &kp LEFT   &kp DOWN       &kp RIGHT     &kp LS(SQT)       &kp LS(STAR)   &kp N4  &kp N5  &kp N6   &kp LS(PLUS)  &kp LS(UNDER)
+&kp LSHFT  &kp SEMI  &kp COLON  &kp LS(QMARK)  &kp LS(LBRC)  &kp LBKT          &kp LS(EQUAL)  &kp N1  &kp N2  &kp N3   &kp BSLH      &trans
+&trans     &trans    &trans                    &trans        &trans            &trans         &kp N0          &kp DOT  &kp DOWN      &kp RIGHT
+&trans     &trans    &trans     &trans         &trans                                         &trans  &trans  &trans   &trans        &trans
+                                &trans                                                                &trans
             >;
         };
     };
