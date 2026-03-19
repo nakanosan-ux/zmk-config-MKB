@@ -450,11 +450,11 @@ layers:
   - DOT
   - UP
   - RSHFT
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
   - LGUI
   - LALT
   - DEL
-  - SPACE
+  - {t: SPACE, h: iPad_num}
   - BSPC
   - RET
   - LEFT
@@ -513,7 +513,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
