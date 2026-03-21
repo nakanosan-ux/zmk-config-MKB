@@ -402,7 +402,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-  - {t: ▽, type: trans}
+  - UP ARROW
   - ''
   - DOWN
   - RIGHT
