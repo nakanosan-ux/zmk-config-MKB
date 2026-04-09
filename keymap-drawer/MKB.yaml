@@ -389,7 +389,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - INTERNATIONAL 3
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -399,7 +399,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - PERIOD
-  - {t: ▽, type: trans}
+  - DOWN ARROW
   - {t: ▽, type: trans}
   - LEFT
   - UP ARROW
