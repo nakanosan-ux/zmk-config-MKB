@@ -400,7 +400,7 @@ layers:
   - '0'
   - PERIOD
   - DOWN ARROW
-  - {t: ▽, type: trans}
+  - RIGHT
   - LEFT
   - UP ARROW
   - ''
